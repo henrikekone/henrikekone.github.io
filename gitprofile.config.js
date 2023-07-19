@@ -50,18 +50,25 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Eviden Germany GmbH',
+      position: 'Data Scientist',
+      from: 'June 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://eviden.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Atos',
+      position: 'Data Scientist',
+      from: 'February 2016',
+      to: 'May 2023',
+      companyLink: 'https://atos.net/',
+    },
+    {
+      company: 'Fujitsu Technology Solutions',
+      position: 'IT Consultant',
+      from: 'August 2015',
+      to: 'January 2016',
+      companyLink: 'https://atos.net/',
     },
   ],
   /* certifications: [
@@ -74,16 +81,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University Duibsurg-Essen',
+      degree: 'Master of Science Computer Science',
+      from: '2018',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'FH Südwestfalen-Meschede',
+      degree: 'Bachelor of Arts Business Administration',
       from: '2012',
-      to: '2014',
+      to: '2015',
     },
   ],
 
@@ -105,10 +112,10 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+  blog:   {
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -123,7 +130,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: True,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
